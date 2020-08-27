@@ -67,6 +67,9 @@ function App (){
       setBooks(prevItems => {
         return [{title: ntitle, price: nprice}, ...prevItems];
       });
+
+      setTitleToBeAdded('');
+      setPriceToBeAdded(0);
     }
   }
 
